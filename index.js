@@ -1,8 +1,5 @@
-const main = (props) => {
-  const { someValue } = props;
+module.exports = {
+    rules: {
 
-  console.log(`123${someValue}`);
-  console.log('Priver');
+    }
 };
-
-main({});
