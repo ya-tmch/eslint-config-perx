@@ -3,18 +3,18 @@ module.exports = {
   extends: ['airbnb', 'prettier', 'prettier/react'],
   plugins: ['react', 'react-hooks', 'prettier'],
   settings: {
-    'import/core-modules': ['react'],
+    'import/core-modules': ['react']
   },
   env: {
-    browser: true,
+    browser: true
   },
   rules: {
-    'prettier/prettier': 'error',
+    'prettier/prettier': ['error', { 'singleQuote': true }],
     'react/no-danger': 0,
     'import/no-unresolved': 0,
     'react/sort-comp': 0,
     'no-console': 0,
     'react/destructuring-assignment': 0,
-    'react/jsx-props-no-spreading': 0,
-  },
+    'react/jsx-props-no-spreading': 0
+  }
 };
